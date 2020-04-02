@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i|Nunito:300,300i" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+
+        <title>CSS Grids Gallery</title>
+    </head>
+    <body>
+      <!-- Header -->
+      <div class="header" id="myHeader">
+        <h1>Image Grid</h1>
+        <p>Click on the buttons to change the grid view.</p>
+        <button class="btn" onclick="one()">1</button>
+        <button class="btn active" onclick="two()">2</button>
+        <button class="btn" onclick="four()">4</button>
+      </div>
+
+      <!-- Photo Grid -->
+      <div class="row">
+        <div class="column">
+
+          <img src="images/common4.png" style="width:100%">
+          <img src="images/2.jpg" style="width:0%">
+          <img src="images/drawbot.gif" style="width:200%">
+
+        </div>
+        <div class="column">
+          <div>
+            The project questions the way we categorise objects of our universe. Instead of figurative categories such as 'human', 'animal', 'house', it proposes categories based on movement: circular, linear, zooming in or out and miscellaneous. Each block represents one of common figurative categories. Columns represent movement categories. By moving the blocks between different columns the user can observe change in type of movement. Additionally, by clicking Shift or Enter keys,
+          </div>
+          <img src="images/2.jpg" style="width:60%">
+          <img src="images/7.jpg" style="width:0%">
+
+        </div>
+        <div class="column">
+          <img src="images/1.jpg" style="width:100%">
+          <img src="images/common4.png" style="width:100%">
+          <img src="images/common2.gif" style="width:100%">
+
+        </div>
+        <div class="column">
+          <img src="images/9.jpg" style="width:100%">
+          <img src="images/2.jpg" style="width:100%">
+          <img src="images/7.jpg" style="width:100%">
+
+        </div>
+      </div>
+
+<script src="jquery.ui.touch-punch.min.js"></script>
+                                            <!-- <script src="jquery.tappable.js"></script> -->
+<script src="index.js"></script>
+
+    </body>
+</html>

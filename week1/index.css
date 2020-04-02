@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+
+}
+
+html,body {
+  overflow-x: hidden;
+
+}
+
+
+.music{
+  position: absolute;
+  display: inline-block;
+  z-index: 40;
+  margin-top: 10%;
+  margin-left: 75%;
+}
+
+.title{
+  position: absolute;
+  display: inline-block;
+  width:80%;
+  margin-left: 10%;
+  font-size: 4em;
+  font-family: Taviraj;
+}
+
+.dolcevita img{
+  width:100%;
+  z-index: -20;
+  display: inline-block;
+  position: absolute;
+}
+
+.image img{
+  display: inline-block;
+  position: absolute;
+  z-index: 30;
+}
+
+.greendog img{
+  margin-left: 20%;
+  margin-top: 15%;
+  width:30%;
+}
+
+.gamer img{
+  margin-left: 20%;
+  margin-top: 55%;
+  width:30%;
+}
+
+.oldman img{
+  margin-left: 30%;
+  margin-top: 35%;
+  width:30%;
+  z-index: 20;
+}
+
+.water img{
+  margin-left: 0%;
+  margin-top: 45%;
+  width:100%;
+  z-index: 20;
+}
+
+.ratherbefishing img{
+  margin-left: 60%;
+  margin-top: 60%;
+  width:15%;
+  z-index: 20;
+}
+
+.dolphin img{
+  margin-left: 79%;
+  margin-top: 60%;
+  width:15%;
+  z-index: 20;
+}
+
+.chair img{
+  /* margin-left: 20%; */
+  margin-left: -100%;
+  margin-top: 5%;
+  width:100%;
+  z-index: 30;
+  animation-name: move-in-steps;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  -webkit-filter: drop-shadow(5px 5px 7px black);
+  filter: drop-shadow(5px 5px 7px black);
+}
+
+
+.threeD {
+  color: blue;
+  white-space: nowrap;
+  position: absolute;
+  z-index: 30;
+  top: 150%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  font-size: 3em;
+  font-family: sans-serif;
+  letter-spacing: 0.1em;
+  transition: 0.3s;
+  text-shadow: 1px 1px 0 grey, 1px 2px 0 grey, 1px 3px 0 grey, 1px 4px 0 grey,
+    1px 5px 0 grey, 1px 6px 0 grey, 1px 7px 0 grey, 1px 8px 0 grey,
+    5px 13px 15px black;
+}
+
+.threeD:hover {
+  transition: 0.3s;
+  transform: scale(1.1)translate(-50%, -50%);
+  text-shadow: 1px -1px 0 grey, 1px -2px 0 grey, 1px -3px 0 grey,
+    1px -4px 0 grey, 1px -5px 0 grey, 1px -6px 0 grey, 1px -7px 0 grey,
+    1px -8px 0 grey, 5px -13px 15px black, 5px -13px 25px #808080;
+}
+
+
+
+
+@keyframes move-in-steps {
+  0% {
+    margin-left: -100%;
+
+  }
+  100% {
+    margin-left: 100%;
+
+  }
+}
