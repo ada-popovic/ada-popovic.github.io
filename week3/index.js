@@ -5,7 +5,7 @@ $(document).ready(function() {
   var $blocks = $("#block");
   var $blocks2 = $("#block2");
   var $lis = $("#block li");
-  var $lis = $("#block2 li");
+  var $lis2 = $("#block2 li");
   var $control = $("#control1");
   var $control2 = $("#control2");
   var $inputs = $(".control input");
