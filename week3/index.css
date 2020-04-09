@@ -21,14 +21,35 @@ output {
 }
 
 
-.af img{
+.tao img{
   position: absolute;
   display: inline-block;
   margin-left: 70%;
-  margin-top: 20%;
-  width: 200px;
+  margin-top: 0%;
+  width: 335px;
+  float: right;
+  right: 0;
+  animation-duration: 3s;
+  animation-name: slidein;
+  mix-blend-mode: difference;
 }
 
+.af img{
+  position: absolute;
+  display: inline-block;
+  left:0px;
+  top:200px;
+  width: 100px;
+  animation-name: move;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  z-index: 40;
+}
+
+.tao{
+  float: right;
+  right: 0;
+}
 .cheeseballs img{
   position: absolute;
   display: inline-block;
@@ -103,9 +124,12 @@ output {
   transform: translateX(-50%);
   height: 600px;
   width: 800px;
-  font-family: sans-serif;
-  font-weight: bold;
+  font-family: 'Sprat';
+  font-weight: normal;
+  font-variant: 'Condensed';
   font-size: 60px;
+  color: black;
+
 }
 
 ul {
@@ -116,7 +140,6 @@ ul {
   position: absolute;
   letter-spacing: -.6px;
   line-height: 60px;
-  text-transform: uppercase;
   cursor: pointer;
 }
 
@@ -125,67 +148,23 @@ ul {
   top: 18px;
 }
 
-.block:nth-child(2) {
-  left: 48px;
-  top: 141px;
+
+@keyframes move {
+  0%   {left:0px; top:400px;}
+  25%  {left:1300px; top:400px;}
+  50%  {left:1300px; top:600px;}
+  75%  {left:0px; top:600px;}
+  100% {left:0px; top:400px;}
 }
 
-.block:nth-child(3) {
-  left: 45px;
-  top: 288px;
-}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 140%;
+  }
 
-.block:nth-child(4) {
-  left: 218px;
-  top: 78px;
-}
-
-.block:nth-child(5) {
-  left: 217px;
-  top: 210px;
-}
-
-.block:nth-child(6) {
-  left: 223px;
-  top: 365px;
-}
-
-.block:nth-child(7) {
-  left: 378px;
-  top: 67px;
-}
-
-.block:nth-child(8) {
-  left: 379px;
-  top: 217px;
-}
-
-.block:nth-child(9) {
-  left: 362px;
-  top: 356px;
-}
-
-.image {
-  position: absolute;
-  background-image:
-background-size: 100% auto;
-background-position: center center;
-background-repeat: no-repeat;
-height: 96px;
-width: 139px;
-top: 461px;
-left: 77px;
-cursor: pointer;
-}
-
-.button {
-display: inline-block;
-line-height: 2.2rem;
-padding: 0 1.5rem;
-cursor: pointer;
-margin-top: .5rem;
-}
-
-.button.primary {
-background: #ccc;
+  to {
+    margin-left: 70%;
+    width: 335px;
+  }
 }
