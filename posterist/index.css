@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+html {
+}
+
+body {
+  background-color: white;
+  -ms-overflow-style: none;
+
+}
+
+.word {
+  font-size: 2em;
+  font-family: monospace;
+  color: blue;
+  display: inline-block;
+  position: absolute;
+}
+
+.image1 img{
+  width: 400px;
+  margin-left: 20%;
+  margin-top: 40%;
+  display: inline-block;
+  position: absolute;
+
+}
+
+.image2 img{
+  width: 500px;
+  margin-left: 40%;
+  margin-top: 10%;
+  display: inline-block;
+  position: absolute;
+}
+
+.bigtitle1 {
+  margin-left: 30%;
+  margin-top: 45%;
+  font-size: 3em;
+  font-family: serif;
+  display: inline-block;
+  position: absolute;
+
+}
+
+.bigtitle2 {
+  margin-left: 5%;
+  margin-top: 3%;
+  font-size: 3em;
+  font-family: serif;
+  display: inline-block;
+  position: absolute;
+}
+
+.sentence {
+  margin-left: 5%;
+  font-size: 2em;
+  font-family: monospace;
+  display: inline-block;
+  position: absolute;
+
+}
+
+#sentence1 {
+  margin-top: 10%;
+
+}
+
+#sentence2 {
+  margin-top: 20%;
+
+}
+
+#sentence3 {
+  margin-top: 40%;
+
+}
+
+#sentence4 {
+  margin-top: 60%;
+
+}
+
+.word1 {
+  margin-top: 10%;
+  margin-left: 11%;
+
+}
+
+.wordD2 {
+
+  margin-top: 10%;
+  margin-left: 35%;
+
+}
+
+.word3 {
+  margin-top: 20%;
+  margin-left: 11%;
+
+
+}
+
+.wordD4 {
+  margin-top: 40%;
+  margin-left: 15%;
+
+}
+
+.word5 {
+
+  margin-top: 60%;
+  margin-left: 5%;
+
+}
