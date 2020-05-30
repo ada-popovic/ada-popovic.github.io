@@ -1,5 +1,5 @@
 window.onload = choosePic;
-window.onload = choosePic2;
+
 
 var movies = new Array("movies/movie1.jpg","movies/movie2.jpg","movies/movie3.jpg","movies/movie4.jpg","movies/movie5.jpg","movies/movie6.jpg","movies/movie7.jpg","movies/movie8.jpg");
 
@@ -7,11 +7,9 @@ var art = new Array("art/art1.jpg","art/art2.jpg","art/art3.jpg","art/art4.jpg",
 
 function choosePic() {
      var randomNum = Math.floor(Math.random() * movies.length);
-     document.getElementById("movie-image-img").src = movies[randomNum];
-}
-
-function choosePic2() {
      var randomNum2 = Math.floor(Math.random() * art.length);
+     document.getElementById("movie-image-img").src = movies[randomNum];
+
      document.getElementById("art-image-img").src = art[randomNum2];
 }
 
