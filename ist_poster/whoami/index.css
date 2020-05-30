@@ -1,0 +1,277 @@
+body {
+  background-color: lightgrey;
+}
+
+/* .stopbutton {
+  position: fixed;
+  margin-left: 75%;
+  margin-top: 20%;
+  width: 200px;
+  height: 100px;;
+  object-fit: contain;
+  z-index: 100;
+  border: 0.1px solid black;
+  background-color: grey;
+  cursor: pointer;
+} */
+
+.stopbutton img{
+  position: fixed;
+  margin-left: 73.5%;
+  margin-top: 10%;
+  width: 280px;
+  height: auto;
+  object-fit: contain;
+  z-index: 100;
+  cursor: pointer;
+}
+.bigbox {
+  position: fixed;
+  margin-left: 49px;
+  margin-top: 29px;
+  width: 988px;
+  height: 692px;
+  object-fit: contain;
+  z-index: -100;
+  border: 0.1px solid black;
+  visibility: hidden;
+}
+
+.allboxes {
+  position: fixed;
+  margin-left: 50px;
+  margin-top: 30px;
+  width: 1000px;
+  height: 900px;
+  object-fit: contain;
+  z-index: -100;
+
+}
+
+.box {
+  display: inline-block;
+  margin: -2px;
+  border: 0.1px solid black;
+  width: 247px;
+  height: 346px;
+  z-index: -100;
+  background-color: white;
+}
+
+.art-image{
+  position: fixed;
+  margin-left: 770px;
+  margin-top: 390px;
+  display: inline-block;
+  z-index: 20;
+  /* background-color: red; */
+  width: 16%;
+  height:auto;
+
+}
+
+.art-image img {
+  width: 100%;
+
+}
+
+.movie-image{
+    margin-left: 200px;
+    position: fixed;
+    display: inline-block;
+    z-index: 20;
+    margin-top: 50px;
+    width: 20%;
+
+}
+
+.movie-image img {
+  width: 100%;
+
+
+
+}
+
+.text-book {
+  position: fixed;
+  font-size: 2.5em;
+  display: inline-block;
+  width: 16%;
+  z-index: 20;
+  font-family: 'Iskry';
+  color: #8c613e;
+  -webkit-text-stroke-width: 0.7px;
+    -webkit-text-stroke-color: black;
+
+}
+
+.stopbutton-text {
+  margin-left: 1070px;
+  margin-top: 170px;
+  position: fixed;
+  font-size: 2.5em;
+  display: inline-block;
+  width: 16%;
+  z-index: 140;
+  font-family: 'Iskry';
+  color: #8c613e;
+  -webkit-text-stroke-width: 0.7px;
+    -webkit-text-stroke-color: black;
+    cursor: pointer;
+
+}
+
+.rhizome{
+  width: 30%;
+  margin-left: 1060px;
+  margin-top: 20px;
+  font-size: 3em;
+
+
+}
+
+.so{
+  margin-left: 310px;
+  margin-top: 390px;
+
+
+}
+
+.tell{
+  margin-left: 303px;
+  margin-top: 570px;
+  text-align: right;
+
+  text-indent:60px;
+
+}
+
+.text-description {
+  position: fixed;
+  font-size: 1em;
+  margin-left: 60px;
+  margin-top: 387px;
+  line-height: 19px;
+  display: inline-block;
+  width: 16%;
+  z-index: 20;
+  overflow: hidden;
+  font-family: 'Union';
+}
+
+.back {
+  position: fixed;
+  font-size: 1em;
+  margin-left: 60px;
+  margin-top: 660px;
+  line-height: 23px;
+  display: inline-block;
+  width: 15%;
+  z-index: 20;
+  overflow: hidden;
+  font-family: 'Union';
+  color: #black;
+  visibility: hidden;
+}
+
+.bookquote {
+  font-family: 'Union';
+  position: fixed;
+  font-size: 1em;
+  margin-left: 560px;
+  margin-top: 130px;
+  display: inline-block;
+  width: 13%;
+  z-index: 20;
+  overflow: auto;
+  /* background-color: lightblue; */
+}
+
+.moviequote {
+  font-family: 'Union';
+  position: fixed;
+  font-size: 1em;
+  margin-left: 560px;
+  margin-top: 390px;
+  display: inline-block;
+  width: 13%;
+  z-index: 20;
+  /* background-color: lightpink; */
+}
+
+.randomword {
+  font-family: 'Iskry';
+  position: fixed;
+  font-size: 2.5em;
+  margin-left: 710px;
+  margin-top: 290px;
+  display: inline-block;
+  width: 20%;
+  z-index: 20;
+  color: #8c613e;
+  /* background-color: lightpink; */
+}
+
+.grid {
+  position: fixed;
+  margin-left: 48px;
+  margin-top: 377px;
+  display: inline-block;
+  width: 247px;
+  height: 346px;
+    background-image:
+      repeating-linear-gradient(#8c613e 0 1px, transparent 1px 100%),
+      repeating-linear-gradient(90deg, #8c613e 0 1px, transparent 1px 100%);
+    background-size: 41px 23px;
+    visibility: hidden;
+}
+
+.folding {
+    visibility: hidden;
+}
+
+.folding img{
+  font-family: 'Iskry';
+  position: fixed;
+  font-size: 2.5em;
+  margin-left: 1060px;
+  margin-top: 562px;
+  display: inline-block;
+  width: 20%;
+  z-index: 20;
+  color: #8c613e;
+
+  /* background-color: lightpink; */
+}
+
+
+
+
+@media print {
+
+  body {
+    background-color: white;
+  }
+
+  .back{
+    visibility: visible;
+  }
+
+  .grid{
+    visibility: visible;
+  }
+
+  .bigbox{
+    visibility: visible;
+  }
+
+  .rotate {
+    transform: rotate(180deg);
+    transform-origin: center center;
+
+  }
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
