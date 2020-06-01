@@ -10,15 +10,19 @@ html,body {
 
 
 body {
-  font-family: 'NIHIL NORI';
-  font-weight: bold;
-  font-size: 60px;
-  line-height: 60px;
-  min-height: 100vh;
 }
 
 output {
   display: none;
+}
+
+@font-face {
+    font-family: 'nihil_noriregular';
+    src: url('nihilnori-regular-webfont.woff2') format('woff2'),
+         url('nihilnori-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 .control {
@@ -47,6 +51,11 @@ ul {
 }
 
 .block {
+  font-family: 'nihil_noriregular';
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 60px;
+  min-height: 100vh;
   position: absolute;
   letter-spacing: -.6px;
   line-height: 60px;
