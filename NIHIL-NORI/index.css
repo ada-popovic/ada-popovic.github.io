@@ -4,8 +4,8 @@
 }
 
 html,body {
-  height: 100%;
-  background-color: grey;
+  height: 400%;
+  background-color: black;
 }
 
 
@@ -52,15 +52,38 @@ ul {
 
 .block {
   font-family: 'nihil_noriregular';
-  font-weight: bold;
-  font-size: 60px;
-  line-height: 60px;
-  min-height: 100vh;
+  /* font-weight: bold; */
+  font-size: 100px;
+  line-height: 80px;
   position: absolute;
-  letter-spacing: -.6px;
-  line-height: 60px;
-
+  letter-spacing: -.1px;
   cursor: pointer;
+  color:#00ff00;
+}
+
+.block2 {
+  font-family: 'nihil_noriregular';
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 50px;
+  position: absolute;
+  letter-spacing: -.1px;
+  cursor: pointer;
+  color:#00ff00;
+  margin-top: 70%;
+  margin-left: 30%;
+}
+
+.block3 {
+  font-family: 'nihil_noriregular';
+  font-size: 50px;
+  line-height: 50px;
+  position: absolute;
+  letter-spacing: -.1px;
+  cursor: pointer;
+  color:#00ff00;
+  margin-top: 90%;
+  margin-left: 10%;
 }
 
 .block:nth-child(1) {
@@ -86,4 +109,28 @@ ul {
 .block:nth-child(5) {
   left: 170px;
   top: 210px;
+}
+
+
+
+.content {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  margin: 0;
+  max-width: 100%;
+  width: 100vw;
+}
+
+.one {
+  background-color: #EC368D;
+}
+
+.two {
+  background-color: #333;
+}
+
+.three {
+  background-color: #440381;
 }
