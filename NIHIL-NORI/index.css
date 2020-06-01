@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    /* display: inline-block; */
+}
+
+html,body {
+  height: 100%;
+  background-color: grey;
+}
+
+
+body {
+  font-family: 'NIHIL NORI';
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 60px;
+  min-height: 100vh;
+}
+
+output {
+  display: none;
+}
+
+.control {
+  position: fixed;
+  margin-top: 2%;
+  margin-left: 2%;
+  /* background: rgba(0,0,0,.5); */
+  width: 100%;
+  max-width: 250px;
+  min-width: 200px;
+  transition: 400ms ease;
+  z-index: 1;
+}
+
+.control input {
+  width: 100%;
+  padding: 5px;
+}
+.control input.text-data {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 20;
+}
+
+.block {
+  position: absolute;
+  letter-spacing: -.6px;
+  line-height: 60px;
+
+  cursor: pointer;
+}
+
+.block:nth-child(1) {
+  left: 0px;
+  top: 18px;
+}
+
+.block:nth-child(2) {
+  left: 0px;
+  top: 141px;
+}
+
+.block:nth-child(3) {
+  left: 0px;
+  top: 288px;
+}
+
+.block:nth-child(4) {
+  left: 170px;
+  top: 78px;
+}
+
+.block:nth-child(5) {
+  left: 170px;
+  top: 210px;
+}
