@@ -19,6 +19,10 @@ $(document).ready(function() {
   var $lis2 = $(".block2 li");
   var $blocks3 = $(".block3");
   var $lis3 = $(".block3 li");
+  var $blocks4 = $(".block4");
+  var $lis4 = $(".block4 li");
+  var $blocks5 = $(".block5");
+  var $lis5 = $(".block5 li");
   var $control = $(".control");
   var $inputs = $(".control input");
   var $output = $("output");
@@ -39,6 +43,8 @@ $(document).ready(function() {
     $lis.html(val);
     $lis2.html(val);
     $lis3.html(val);
+    $lis4.html(val);
+    $lis5.html(val);
   }
 
 });
